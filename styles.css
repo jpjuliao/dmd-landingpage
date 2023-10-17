@@ -1,0 +1,123 @@
+/* Estilos para el header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.header .logo {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.header .cta {
+  text-align: right;
+}
+
+/* Estilos para el botón de CTA */
+.btn-primary {
+  background-color: #007BFF;
+  color: white;
+}
+
+/* Estilos para la sección de hero */
+.hero-section {
+  background-image: url('https://via.placeholder.com/1600x600');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Estilos para la sección de visión y misión */
+.vision-image,
+.mission-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+}
+
+/* Estilos para la sección de servicios */
+.services-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Estilos para los iconos de servicios */
+.service-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la sección de valores */
+.values-section {
+  background-color: #333;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Estilos para los iconos de valores */
+.values-icon {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+/* Estilos para los enlaces sociales */
+.social-links {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #007BFF;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* Estilos para el texto de valores en el footer */
+.values-footer {
+  text-align: right;
+}
+
+/* Estilos para los elementos arrastrables */
+.dragula-item {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: grab;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+/* Estilo cuando se está arrastrando un elemento */
+.dragula-item.is-moved {
+  background-color: #d9edf7;
+}
+
+/* Estilo cuando se está sobre una lista receptora durante el arrastre */
+.dragula-container.is-over {
+  background-color: #e6f7f9;
+}
+
+/* Estilo cuando se está sobre un elemento durante el arrastre */
+.dragula-item.is-over {
+  background-color: #aedff2;
+}
+
+/* Remove margins and padding on the <ul> element */
+.dragula-container {
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
